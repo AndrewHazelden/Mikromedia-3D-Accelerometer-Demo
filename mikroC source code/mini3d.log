@@ -1,0 +1,40 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX460F512L -RA -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111114 -fo80 -N"C:\Users\hazelden\Desktop\mikroMMB 3D Accelerometer Demo\mikroC source code\mini3d.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\uses\" -SP"C:\Users\hazelden\Desktop\mikroMMB 3D Accelerometer Demo\mikroC source code\" -IP"C:\Users\hazelden\Desktop\mikroMMB 3D Accelerometer Demo\mikroC source code\" "mini3d_main.c" "mini3d_driver.c" "render.c" "shape.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_Conversions.emcl" "__Lib_ADC.emcl" "__Lib_I2C_12.emcl" "__Lib_UART_12.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_TouchPanel_TFT.emcl"	 
+diagnostics: 0	122	Compilation Started	P32MX460F512L.c
+diagnostics: 15355	123	Compiled Successfully	P32MX460F512L.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 148	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__Lib_TFT_Defs.c
+diagnostics: 2797	123	Compiled Successfully	__Lib_TFT_Defs.c
+diagnostics: 0	126	All files Preprocessed in 219 ms	 
+diagnostics: 0	122	Compilation Started	setup.h
+hint: 307	1163	Variable 'z_out' has been declared, but not used	mini3d_main.c
+diagnostics: 335	123	Compiled Successfully	mini3d_main.c
+diagnostics: 0	122	Compilation Started	mini3d_driver.c
+diagnostics: 290	123	Compiled Successfully	mini3d_driver.c
+hint: 123	1164	Variable 'id' has been eliminated by optimizer	mini3d_driver.c
+hint: 153	1164	Variable 'low_byte' has been eliminated by optimizer	mini3d_driver.c
+hint: 174	1164	Variable 'low_byte' has been eliminated by optimizer	mini3d_driver.c
+hint: 195	1164	Variable 'low_byte' has been eliminated by optimizer	mini3d_driver.c
+diagnostics: 0	122	Compilation Started	shape.h
+diagnostics: 741	123	Compiled Successfully	render.c
+hint: 197	1164	Variable 'increment' has been eliminated by optimizer	render.c
+hint: 491	1164	Variable 'x3' has been eliminated by optimizer	render.c
+hint: 491	1164	Variable 'y3' has been eliminated by optimizer	render.c
+hint: 491	1164	Variable 'x4' has been eliminated by optimizer	render.c
+hint: 491	1164	Variable 'y4' has been eliminated by optimizer	render.c
+hint: 494	1164	Variable 'product_column' has been eliminated by optimizer	render.c
+hint: 495	1164	Variable 'product_row' has been eliminated by optimizer	render.c
+hint: 496	1164	Variable 'shift' has been eliminated by optimizer	render.c
+hint: 497	1164	Variable 'increment' has been eliminated by optimizer	render.c
+hint: 498	1164	Variable 'vtx' has been eliminated by optimizer	render.c
+diagnostics: 0	122	Compilation Started	shape.c
+diagnostics: 58	123	Compiled Successfully	shape.c
+diagnostics: 0	127	All files Compiled in 577 ms	 
+hint: 0	1144	Used RX: 29 (91%)   Free RX: 3 (9%)	Used RX: 29 (91%)   Free RX: 3 (9%)
+hint: 0	1144	Static RAM (bytes): 1368   Dynamic RAM (bytes): 31397	Static RAM (bytes): 1368   Dynamic RAM (bytes): 31397
+hint: 0	1144	Used ROM (bytes): 32069 (6%)  Free ROM (bytes): 492219 (94%)	Used ROM (bytes): 32069 (6%)  Free ROM (bytes): 492219 (94%)
+hint: 0	1144	Used BOOTROM (bytes): 320 (3%)  Free BOOTROM (bytes): 11953 (97%)	Used BOOTROM (bytes): 320 (3%)  Free BOOTROM (bytes): 11953 (97%)
+diagnostics: 0	125	Project Linked Successfully	mini3d.mcp32
+diagnostics: 0	128	Linked in 608 ms	 
+diagnostics: 0	129	Project 'mini3d.mcp32' completed: 3416 ms	 
+diagnostics: 0	103	Finished successfully: 07 Dec 2013, 09:23:48	mini3d.mcp32
